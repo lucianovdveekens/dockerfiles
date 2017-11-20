@@ -7,3 +7,5 @@ RUN yum -y install wget && \
     rm jdk-8u151-linux-x64.rpm && \
     yum clean all && \
     rm -rf /var/cache/yum/*
+
+ENV JAVA_HOME /usr/java/jdk1.8.0_151
